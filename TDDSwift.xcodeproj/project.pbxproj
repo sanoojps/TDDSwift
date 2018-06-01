@@ -15,6 +15,9 @@
 		D388E4F520BF6E6C00174677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D388E4F320BF6E6C00174677 /* LaunchScreen.storyboard */; };
 		D388E50020BF6E6C00174677 /* TDDSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388E4FF20BF6E6C00174677 /* TDDSwiftTests.swift */; };
 		D388E50B20BF6E6C00174677 /* TDDSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388E50A20BF6E6C00174677 /* TDDSwiftUITests.swift */; };
+		D388E51920C1EBE200174677 /* TDDUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388E51820C1EBE200174677 /* TDDUtilities.swift */; };
+		D388E51C20C1F39000174677 /* TDDUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388E51A20C1EDA200174677 /* TDDUtilitiesTests.swift */; };
+		D388E51E20C1F72700174677 /* test-driven-ios-development-swift-4-3rd.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D388E51D20C1F72700174677 /* test-driven-ios-development-swift-4-3rd.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D388E50620BF6E6C00174677 /* TDDSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D388E50A20BF6E6C00174677 /* TDDSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDSwiftUITests.swift; sourceTree = "<group>"; };
 		D388E50C20BF6E6C00174677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D388E51820C1EBE200174677 /* TDDUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDUtilities.swift; sourceTree = "<group>"; };
+		D388E51A20C1EDA200174677 /* TDDUtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDUtilitiesTests.swift; sourceTree = "<group>"; };
+		D388E51D20C1F72700174677 /* test-driven-ios-development-swift-4-3rd.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "test-driven-ios-development-swift-4-3rd.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		D388E4E620BF6E6800174677 /* TDDSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D388E51D20C1F72700174677 /* test-driven-ios-development-swift-4-3rd.pdf */,
 				D388E4E720BF6E6800174677 /* AppDelegate.swift */,
 				D388E4E920BF6E6800174677 /* ViewController.swift */,
 				D388E4EB20BF6E6800174677 /* Main.storyboard */,
@@ -106,6 +113,7 @@
 				D388E4F320BF6E6C00174677 /* LaunchScreen.storyboard */,
 				D388E4F620BF6E6C00174677 /* Info.plist */,
 				D388E4EE20BF6E6800174677 /* TDDSwift.xcdatamodeld */,
+				D388E51820C1EBE200174677 /* TDDUtilities.swift */,
 			);
 			path = TDDSwift;
 			sourceTree = "<group>";
@@ -124,6 +132,7 @@
 			children = (
 				D388E50A20BF6E6C00174677 /* TDDSwiftUITests.swift */,
 				D388E50C20BF6E6C00174677 /* Info.plist */,
+				D388E51A20C1EDA200174677 /* TDDUtilitiesTests.swift */,
 			);
 			path = TDDSwiftUITests;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D388E4F520BF6E6C00174677 /* LaunchScreen.storyboard in Resources */,
+				D388E51E20C1F72700174677 /* test-driven-ios-development-swift-4-3rd.pdf in Resources */,
 				D388E4F220BF6E6C00174677 /* Assets.xcassets in Resources */,
 				D388E4ED20BF6E6800174677 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D388E4F020BF6E6800174677 /* TDDSwift.xcdatamodeld in Sources */,
+				D388E51920C1EBE200174677 /* TDDUtilities.swift in Sources */,
 				D388E4EA20BF6E6800174677 /* ViewController.swift in Sources */,
 				D388E4E820BF6E6800174677 /* AppDelegate.swift in Sources */,
 			);
@@ -270,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D388E50020BF6E6C00174677 /* TDDSwiftTests.swift in Sources */,
+				D388E51C20C1F39000174677 /* TDDUtilitiesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
